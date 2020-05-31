@@ -1,0 +1,29 @@
+{
+  "name": "summlog",
+  "version": "0.1.0",
+  "description": "A tool for generate change logs / release notes from Git histories(git log, GitHub PR etc)",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "repository": "https://github.com/tri-star/summlog",
+  "author": "tristar <tristar@urban-theory.net>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.2.3",
+    "@types/node": "^14.0.6",
+    "eslint": "^7.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "jest": "^26.0.1",
+    "prettier": "^2.0.5",
+    "ts-jest": "^26.1.0",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.3"
+  }
+}
