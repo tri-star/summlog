@@ -3,13 +3,13 @@ import meow from 'meow';
 
 const cli = meow(`
     Usage
-      $ summlog <input>
+      $ verlog <input>
 
     Options
       --config, -c  Config file
 
     Examples
-      $ summlog -c summlog.yml
+      $ verlog -c verlog.yml
 `, {
     flags: {
         config: {

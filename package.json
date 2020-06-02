@@ -1,12 +1,12 @@
 {
-  "name": "summlog",
+  "name": "verlog",
   "version": "0.1.0",
   "description": "A tool for generate change logs / release notes from Git histories(git log, GitHub PR etc)",
   "main": "dist/index.js",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/tri-star/summlog",
+  "repository": "https://github.com/tri-star/verlog",
   "author": "tristar <tristar@urban-theory.net>",
   "license": "MIT",
   "scripts": {

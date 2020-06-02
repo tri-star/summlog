@@ -1,6 +1,6 @@
-# summlog
+# Verlog
 
-![release](http://img.shields.io/github/release/tri-star/summlog.svg?style=flat-square)
+![release](http://img.shields.io/github/release/tri-star/verlog.svg?style=flat-square)
 ![license](http://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)
 
 ## Overview
@@ -25,7 +25,7 @@ WIP.
 
 ## Licence
 
-[MIT](https://github.com/tri-star/summlog/blob/master/LICENSE)
+[MIT](https://github.com/tri-star/verlog/blob/master/LICENSE)
 
 ## Author
 
