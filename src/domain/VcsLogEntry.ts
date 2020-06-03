@@ -19,3 +19,32 @@ export class VcsLogEntry {
     return this._message
   }
 }
+
+
+export class VcsLogEntryCollection {
+  _collection: Map<string, VcsLogEntry>
+
+  constructor() {
+    this._collection = new Map<string, VcsLogEntry>()
+  }
+
+  public add(entry: VcsLogEntry): void {
+    this._collection.set(entry.commitHash, entry)
+  }
+
+  public get(hash: string): VcsLogEntry|undefined {
+    return this._collection.get(hash)
+  }
+
+  public getCount(): Number {
+    return this._collection.size
+  }
+
+  public getList(): Array<VcsLogEntry> {
+    const list = new Array<VcsLogEntry>()
+    this._collection.forEach((entry) => {
+      list.push(entry)
+    })
+    return list
+  }
+}
